@@ -1,0 +1,45 @@
+
+body{
+    margin: 0;
+    font-family: Arial;
+    background-image: linear-gradient(to left, rgb(32, 0, 44), rgb(105, 0, 153), rgb(31, 0, 46) );
+    height: 100%;
+}
+
+.sidenav{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(32, 94, 30, 0.021);
+    overflow-x: hidden;
+
+}
+
+.sidenav a{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.sidenav a:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+    color: yellow;
+    cursor: grab;
+}
+
+.img{
+    margin-left: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+.content{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
