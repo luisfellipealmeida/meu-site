@@ -35,6 +35,7 @@ body{
     margin-left: 15%;
     width: 200px;
     height: 200px;
+    border: 50%;
 }
 
 .content{
